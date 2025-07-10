@@ -194,3 +194,8 @@ textarea{
     margin-top: 20px;
     
 }
+.footer-section{
+    max-width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
