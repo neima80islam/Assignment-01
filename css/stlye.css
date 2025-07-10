@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: rgba(78, 71, 255, 0.1);;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+header{
+background-image: url(../img/Hero-bg.png);
+background-repeat: no-repeat;
+max-width: 1400px;
+height: 600px;
+}
+
+/* navber stlye */
+
+nav{
+    display: flex;
+   justify-content: space-between;
+   padding: 30px 110px;
+}
+nav h1{
+    font-size: 30px;
+    font-style: italic;
+}
+nav h1 span{
+color:#4E47FF;
+}
+.btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    padding: 7px 18px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+}
+.navigation-banner{
+     width: 700px;
+   text-align: center;
+   margin: 100px auto;
+    }
+.navigation-banner h2{
+    color: #252432;
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+}
+/* main stlye  */
+
+.main-description{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.description-taks{
+width: 500px;
+}
+.description-taks h2{
+    font-size: 35px;
+}
+.description-taks p{
+    margin: 25px 0;
+    font-size: 24px;
+}
+.main-imgen img{
+    border-radius: 40px;
+}
+.main-Active{
+    margin: 100px auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1100px;
+    border-radius: 24px;
+    padding: 80px;
+}
+.h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.main-boxes-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.box p{
+    font-size: 20px;
+}
+
+.main-review{
+    max-width: 1100px;
+    margin: 0 auto 100px;
+
+}
+.main-review h2 {
+ text-align: center;
+ font-size: 37px;
+ font-weight: bold;
+}
+.boxes-2{
+    display: flex;
+   gap: 20px;
+    margin: 50px auto;
+    
+}
+.main-cad{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 24px;
+}
+.main-cad p{
+    margin: 10px 0;
+}
+.img-source{
+    display: flex;
+    gap: 12px;
+}
+.img-source img{
+    border-radius: 9999px;
+}
+
+.main-action{
+    max-width: 1100px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 100px;
+}
+.main-action h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-action p{
+    margin: 20px 0;
+ 
+}
+.main-action img{
+    border-radius: 48px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.main-from{
+    max-width:1100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 100px auto;
+}
+.main-from h2{
+    font-size: 80px;
+    font-weight: bold;
+    max-width: 500px;
+}
+.main-from input[type = "email"], input[type = "text"], input[type = "textarea"]{
+    display: block;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    
+}
+form{
+    width: 450px;
+}
+input{
+    margin: 20px 0;
+    
+}
+form input{
+ width: 100%;
+
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 30px;
+    border: 0;
+    margin-top: 20px;
+    
+}
