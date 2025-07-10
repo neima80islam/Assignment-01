@@ -198,4 +198,10 @@ textarea{
     max-width: 100%;
     background-color: #FFFFFF;
     text-align: center;
+    padding: 70px 150px;
+    
+}
+.footer-section h1{
+    font-size: 50px;
+    
 }
